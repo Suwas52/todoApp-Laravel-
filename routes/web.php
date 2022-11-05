@@ -19,5 +19,4 @@ Route::get('/', function () {
 
 
 Route::post('/save-Todo', function () {
-    return view('welcome');
 })->name('saveTodo');

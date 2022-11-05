@@ -24,10 +24,12 @@
     
     <h1>Todo Application</h1>
 
-    <form action="{{route('saveTodo')}}" method="post">
-        @csrf
-        <input type="text" name="todo">
-        <button type="submit">Save</button>
-    </form>
+    <div>
+        <form action="{{route('saveTodo')}}" method="post">
+            @csrf
+            <input type="text" name="todo">
+            <button type="submit">Save</button>
+        </form>
+    </div>
 </body>
 </html>
